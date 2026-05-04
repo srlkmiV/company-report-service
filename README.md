@@ -1,5 +1,13 @@
 # company-report-service
 Service to read csv file and generate report based on the employee data
+Assuming the following cases:
+The salary value of employees can be a double digit.
+The ID of the employee is unique and can be used to identify the employee and their manager.
+The id and manager id will never be the same for any employee, meaning an employee cannot be their own manager.
+The data will be uploaded in a valid format and will not contain any missing or incorrect values.
+
+
+
 
 
 Code exercise 106
